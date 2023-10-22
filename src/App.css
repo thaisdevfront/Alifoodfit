@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+p{
+    color: black;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.btn-circle{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 100px;
+  color: white;
+  background-color: black;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,7 +31,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(http://localhost:3000/static/media/bg.0468430….png);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +39,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .App-link {
