@@ -1,0 +1,10 @@
+div#Perfil {
+    display: block;
+    /* justify-content: space-around; */
+    text-align: center;
+    padding-top: 15px;
+}
+div#Perfil .avatar {
+    width: 150px !important;
+    height: 150px !important;
+}
