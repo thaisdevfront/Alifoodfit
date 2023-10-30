@@ -1,0 +1,27 @@
+.Newpost-camera .Controls {
+    display: flex;
+    justify-content: center;
+    /* padding: 50px 25px; */
+    position: relative;
+    padding: 90px auto 50px;
+    top: 400px;
+}
+
+.Newpost-camera .Controls .btn-circl-Newpost{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.Newpost-camera .ControlsFull .btn-circl-Newpost {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.Newpost-camera {
+    background-image: url(../../img/ImgPost.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}

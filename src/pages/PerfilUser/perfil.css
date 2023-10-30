@@ -1,10 +1,34 @@
 div#Perfil {
-    display: block;
-    /* justify-content: space-around; */
-    text-align: center;
-    padding-top: 15px;
+    display: flex;
+    padding: 35px;
 }
 div#Perfil .avatar {
-    width: 150px !important;
-    height: 150px !important;
+    width: 100px !important;
+    height: 100px !important;
+    margin-right: 20px;
+}
+
+div#Perfil .fillSub h4 {
+    font-size: 22px;
+    margin: 5px auto;
+}
+div#Perfil .fillSub p {
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.NavPost {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+}
+
+.NavPost a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-align: center;
 }

@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+div#Notification .btn {
+    padding: 15px 35px;
+    display: block;
+    margin: 40px auto;
+    border-radius: 100px;
+    border: 0;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1.title {
+    padding-top: 80px;
+}
